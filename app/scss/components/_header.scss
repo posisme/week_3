@@ -1,0 +1,13 @@
+@use "../utils" as u;
+#header{
+    display:block;
+    width:100%;
+    background-color:u.$primarycolor;
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+        color:black;
+        
+    }
+}

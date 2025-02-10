@@ -1,0 +1,24 @@
+
+@forward "header";
+@forward "main";
+@forward "nav";
+@forward "footer";
+
+.twocol{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+
+    &__main, &__nav{
+        @media (max-width:900px) {
+            // grid-template-columns: 1fr;
+            // grid-template-rows: 1fr;
+        }
+    }
+    &__main{
+
+    }
+    &__nav{
+
+    }
+}
