@@ -1,13 +1,14 @@
 @use "../utils" as u;
 #header{
     display:block;
-    width:100%;
     background-color:u.$primarycolor;
+    padding:1.5em;
     h1{
         font-family: 'Courier New', Courier, monospace;
+        color:lightblue;
     }
     p{
-        color:black;
+        color:white;
         
     }
 }

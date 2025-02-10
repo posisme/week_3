@@ -1,0 +1,8 @@
+@use "../utils" as u;
+.twocolgrid{
+    
+    &__nav{
+      background-color: u.$secondarycolor;
+      color:hsl(0, 0%, 100%)
+    }
+  }
